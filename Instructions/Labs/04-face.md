@@ -13,7 +13,7 @@ lab:
 
 您可以使用 Azure AI 臉部服務搭配 **Azure AI 服務** 多服務資源。 如果您尚未建立此資源，請在 Azure 訂閱中建立 **Azure AI 服務**資源。
 
-1. 在另一個瀏覽器索引標籤中，開啟位於 [https://portal.azure.com](https://portal.azure.com?azure-portal=true)的 Azure 入口網站，使用與您的 Azure 訂用帳戶相關聯的 Microsoft 帳戶登入。
+1. 在另一個瀏覽器索引標籤中，開啟 at [https://portal.azure.com](https://portal.azure.com?azure-portal=true)的 Azure 入口網站，使用與您的 Azure 訂用帳戶相關聯的 Microsoft 帳戶登入。
 
 1. 按一下 **＋建立資源 **按鈕並搜尋  * Azure AI 服務 *。 選取**建立** **Azure AI 服務**方案。 系統會帶您前往建立 Azure AI 服務資源的頁面。 使用下列設定對其進行設定：
     - **訂用帳戶**：*您的 Azure 訂用帳戶*。
@@ -73,7 +73,7 @@ lab:
 
     ![商店裡的人形象，工廠遮蔽了臉。](./media/create-face-solutions/store-camera-3.jpg)
 
-1. 上傳 **store-camera-2.jpg** 並檢閱傳回的臉部偵測詳細數據。 請注意 Azure AI 臉部如何偵測部分遮蔽的臉部。 
+1. 上傳 **store-camera-3.jpg** 並檢閱傳回的臉部偵測詳細數據。 請注意 Azure AI 臉部如何偵測到遮蔽的臉部。
 
 在此練習中，您已探索 Azure AI 服務如何偵測影像中的臉部。 如果您有時間，您可以隨意試用範例影像或一些您自己的影像。
 
@@ -81,7 +81,7 @@ lab:
 
 如果您不打算執行更多練習，請刪除不再需要的任何資源。 這可避免產生任何不必要的成本。
 
-1. **在 開啟 Azure 入口網站[https://portal.azure.com**](https://portal.azure.com?azure-portal=true)，然後選取包含您所建立資源的資源群組。
+1. **開啟 位於 [https://portal.azure.com](https://portal.azure.com?azure-portal=true) 的** Azure 入口網站，然後選取包含您所建立資源的資源群組。
 1. 選取資源，然後選取 [刪除]**，然後**選取 **[是**] 以確認。 接著會刪除資源。
 
 ## 深入了解

@@ -29,7 +29,7 @@ lab:
 
 1. 選取[](https://aka.ms/mslearn-speech-files)https://aka.ms/mslearn-speech-files**** 以下載**speech.zip。** 開啟  資料夾。 
 
-1. 在 [開始使用語音] 頁面上，於 [語音 *] 底下*尋找 *[即時語音轉換文字*]。 選取 [ **試用實時語音到文字**]。
+1. 在 [開始使用語音] 頁面上，於 [語音轉換文字] 底下*尋找*即時語音轉換文字*。* 選取 [ **試用實時語音到文字**]。
 
     ![開始使用語音](media/recognize-synthesize-speech/try-out-speech-to-text.png)
 
