@@ -13,7 +13,7 @@ lab:
 
 您可以使用 Azure AI 視覺的 OCR 功能搭配 **Azure AI 服務** 多服務資源。 如果您尚未建立此資源，請在 Azure 訂閱中建立 **Azure AI 服務**資源。
 
-1. 在另一個瀏覽器索引標籤中 **，開啟 Azure 入口網站** at [https://portal.azure.com](https://portal.azure.com?azure-portal=true)，使用與您的 Azure 訂用帳戶相關聯的 Microsoft 帳戶登入。
+1. 在另一個瀏覽器索引標籤中 **，開啟 at[](https://portal.azure.com?azure-portal=true)https://portal.azure.com 的 Azure 入口網站，使用與您的 Azure 訂用帳戶相關聯的 Microsoft 帳戶登入。**
 
 1. 按一下 **＋建立資源 **按鈕並搜尋  * Azure AI 服務 *。 選取**建立** **Azure AI 服務**方案。 系統會帶您前往建立 Azure AI 服務資源的頁面。 使用下列設定對其進行設定：
     - **訂用帳戶**：*您的 Azure 訂用帳戶*。
@@ -61,7 +61,7 @@ lab:
     - 在 **[偵測到的屬性**] 中，影像中找到的任何文字會組織成區域、線條和文字的階層式結構。
     - 在影像上，文字的位置會以周框方塊表示，如下所示：
 
-    ![影像文字加框的影像](media/read-text-computer-vision/text-bounding-boxes.png)
+    ![所概述影像中文字的影像。](media/read-text-computer-vision/advert-bounding-boxes.jpg)
 
 1. 您現在可以嘗試另一個影像。 選取 [ **瀏覽檔案]** ，然後流覽至您從 GitHub 儲存盤案的資料夾。 選取 **[letter.jpg**]。
 
