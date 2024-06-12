@@ -16,6 +16,6 @@ AI-900 訓練人員實驗室是可在 Microsoft Learn 上找到的 AI-900 實驗
 | AI-900 電腦視覺 | 分析 Vision Studio 中的影像 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250145) |
 | AI-900 自然語言處理 | 使用 Language Studio 分析文字 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250314) |
 | AI-900 檔智慧 | 在 Document Intelligence Studio 中擷取窗體數據 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250315) |
-| AI-900 Generative AI | 使用 Bing Copilot 探索 Generative AI | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2249955) |
+| AI-900 Generative AI | 探索 Microsoft Edge 中的 Microsoft Copilot | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2249955) |
 
 

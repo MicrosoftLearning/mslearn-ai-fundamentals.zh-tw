@@ -13,19 +13,19 @@ lab:
 
 您可以使用 Azure AI 臉部服務搭配 **Azure AI 服務** 多服務資源。 如果您尚未建立此資源，請在 Azure 訂閱中建立 **Azure AI 服務**資源。
 
-1. 在另一個瀏覽器索引標籤中，開啟 at [https://portal.azure.com](https://portal.azure.com?azure-portal=true)的 Azure 入口網站，使用與您的 Azure 訂用帳戶相關聯的 Microsoft 帳戶登入。
+1. 在另一個瀏覽器索引標籤中，開啟位於 [https://portal.azure.com](https://portal.azure.com?azure-portal=true)的 Azure 入口網站，使用與您的 Azure 訂用帳戶相關聯的 Microsoft 帳戶登入。
 
 1. 按一下 **＋建立資源 **按鈕並搜尋  * Azure AI 服務 *。 選取**建立** **Azure AI 服務**方案。 系統會帶您前往建立 Azure AI 服務資源的頁面。 使用下列設定對其進行設定：
     - **訂用帳戶**：*您的 Azure 訂用帳戶*。
     - **資源群組**：*選取或建立具有唯一名稱的資源群組*。
-    - **區域**：美國東部。
+    - **區域**： *選取最接近的地理區域。如果在美國東部，請使用「美國東部 2」*。
     - **名稱**：*輸入唯一名稱*。
     - **定價層**： *標準 S0。*
     - **勾選此方塊，我確認我已閱讀並瞭解下列**所有條款： *已選取*。
 
 1. 選取 [**檢閱 + 建立**]，然後**** 等候部署完成。
 
-## 將 Azure AI 服務資源 連線 至 Vision Studio
+## 將 Azure AI 服務資源連線至 Vision Studio
 
 接下來，將您布建的 Azure AI 服務資源連線至 Vision Studio。
 
@@ -81,7 +81,7 @@ lab:
 
 如果您不打算執行更多練習，請刪除不再需要的任何資源。 這可避免產生任何不必要的成本。
 
-1. **開啟 位於 [https://portal.azure.com](https://portal.azure.com?azure-portal=true) 的** Azure 入口網站，然後選取包含您所建立資源的資源群組。
+1. **在 開啟 Azure 入口網站[https://portal.azure.com**](https://portal.azure.com?azure-portal=true)，然後選取包含您所建立資源的資源群組。
 1. 選取資源，然後選取 [刪除]**，然後**選取 **[是**] 以確認。 接著會刪除資源。
 
 ## 深入了解
