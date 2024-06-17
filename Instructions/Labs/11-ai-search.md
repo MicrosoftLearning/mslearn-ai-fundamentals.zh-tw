@@ -124,7 +124,7 @@ lab:
 
 1. 選取 [下一步：新增認知技能 (選用)]****。
 
-1. 在 [附加認知服務]**** 區段中，選取您的 Azure AI 服務資源。  
+1. 在 [附加 AI 服務]**** 區段中，選取您的 Azure AI 服務資源。  
 
 1. 在 [新增擴充]**** 區段中：
     - 將 [技能集名稱]**** 變更為 **coffee-skillset**。
@@ -152,11 +152,12 @@ lab:
     - 映像詳細資料
     - 映像參考
 
-    > **注意** 如果出現要求**儲存體帳戶連接字串**的警告，
+    > **注意** 要求**儲存體帳戶連接字串**的警告隨即出現。
     >
     > ![螢幕擷取畫面顯示已選取「選擇現有連線」的儲存體帳戶連線畫面警告。](media/create-cognitive-search-solution/6a-azure-cognitive-search-enrichments-warning.png)
     >
-    > 1. 選取 [請選擇現有的連線]****。 選取您稍早建立的儲存體帳戶。
+
+1. 選取 [請選擇現有的連線]****。 選取您稍早建立的儲存體帳戶。
     > 1. 按一下 [+ 容器]**** 建立名為 **knowledge-store** 的新容器，並將隱私權等級設定為 [私人]****，然後選取 [建立]****。
     > 1. 選取 [知識存放區]**** 容器，然後按一下畫面底部的 [選取]****。
 
@@ -166,7 +167,7 @@ lab:
 
 1. 確定 [金鑰]**** 設為 **metadata_storage_path**。 將 [建議工具名稱]**** 保留空白，並自動填入**搜尋模式**。
 
-1. 檢閱索引欄位的預設設定。 針對預設中已選取的所有欄位選取 [可篩選]****。
+1. 檢閱索引欄位的預設設定。 針對預設中已選取的所有欄位選取 [可篩選]****。 必須標示「可篩選」** 的欄位名稱包括：content、locations、keyphrases、sentiment、merged_content、text、layoutText、imageTags、imageCaption。
 
     ![螢幕擷取畫面顯示自訂索引窗格，已輸入索引名稱且預設索引欄位已選取「可篩選」。](media/create-cognitive-search-solution/6a-azure-cognitive-search-customize-index.png)
 
@@ -238,11 +239,11 @@ lab:
 
 1. 在 Azure 入口網站中，瀏覽至您的 Azure 儲存體帳戶。
 
-2. 在左側功能表窗格中選取 [容器]****。 選取 [知識存放區] 容器。****
+2. 在左側功能表窗格中選取 [容器]****。 選取 [知識存放區] 容器。**** 
 
     ![[知識存放區] 容器的螢幕擷取畫面。](media/create-cognitive-search-solution/knowledge-store-blob-0.png)
 
-3. 選取任何項目，然後按一下 **objectprojection.json** 檔案。
+3. 您會看到資料夾清單。 每個檢閱文件的所有中繼資料都有一個資料夾。 **選取任何資料夾**。 在資料夾內，按一下 **objectprojection.json** 檔案。
 
     ![objectprojection.json 的螢幕擷取畫面。](media/create-cognitive-search-solution/knowledge-store-blob-1.png)
 
