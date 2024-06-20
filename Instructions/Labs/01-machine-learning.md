@@ -9,6 +9,8 @@ lab:
 
 此練習應該需要大約 **30** 分鐘才能完成。
 
+>**重要** 目前，可以在 Azure Machine Learning Studio 中撰寫模型並將其部署為 Web 服務，但無法在 Studio 中進行測試。 因此，清除之前步驟的最後一個區段都可以完成。 我們會隨著此變更而更新。
+
 ## 建立 Azure Machine Learning 工作區
 
 若要使用 Azure Machine Learning，您必須在 Azure 訂用帳戶中佈建 Azure Machine Learning 工作區。 然後，您將能夠使用 Azure Machine Learning 工作室來處理工作區中的資源。
@@ -140,6 +142,8 @@ lab:
 1. 等候 [部署狀態]**** 變更為 [成功]**。 這可能需要 5-10 分鐘。
 
 ## 測試已部署的服務
+
+>**重要** Azure Machine Learning Studio 目前不支援使用部署測試所需的資料集建立類型。 我們會在有解決方案時更新您。 
 
 現在您可以測試已部署的服務。
 
