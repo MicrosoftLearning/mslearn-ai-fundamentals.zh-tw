@@ -1,53 +1,156 @@
 ---
 lab:
-  title: 使用 Microsoft Copilot 探索產生的 AI
+  title: 在 Microsoft Edge 中探索 Copilot
 ---
-# 使用 Microsoft Copilot 探索產生的 AI
+# 在 Microsoft Edge 中探索 Microsoft Copilot
 
-在本練習中，您將探索 Microsoft Copilot 的行用 AI。 
+在此練習中，您將探索 Microsoft Copilot 有哪些方式可使用生成式 AI 協助您在建立新內容時提高生產力。 在此練習的案例中，您將從商業構想的一些概要筆記開始著手，並在 Microsoft Edge 中使用 Copilot，以協助您研擬商務計劃和對潛在投資者的簡報。
 
-## 登入 Microsoft Copilot
+完成此練習約需要 **40** 分鐘。
 
-1. 開啟 [copilot.microsoft.com](https://copilot.microsoft.com?azure-portal=true) 並使用您的個人 Microsoft 帳戶登入。
+> **注意**：此練習假設您有[個人 Microsoft 帳戶](https://signup.live.com) (例如 outlook.com 帳戶)，且已用此帳戶在電腦上登入 [Microsoft Edge](https://www.microsoft.com/edge/download)。
 
-1. Microsoft Copilot 使用產生 AI 來增強 Bing 搜尋結果。 這表示，與僅傳回現有內容的搜尋不同，Microsoft Copilot 可以根據自然語言模型化和 Web 的資訊來結合新的回應。  
+## 使用 Copilot 探索文件及研究構想
 
-1. 在畫面底部，您會看到窗口 **詢問我任何專案**。 當您在視窗中輸入提示時，Copilot 會使用整個對話線程來傳回回應。 例如，讓我們嘗試詢問一系列關於旅行的問題。
+為了開始探索生成式 AI，我們將在 Edge 中使用 Microsoft Copilot 來檢查現有的文件，並從中擷取一些深入解析。
 
-## 使用提示來產生回應
+1. 在 Microsoft Edge 中瀏覽至 [OneDrive](https://onedrive.live.com) (`https://onedrive.live.com`)，並使用您的個人 Microsoft 帳戶登入 - 關閉任何顯示的歡迎訊息或供應項目。
+1. 在另一個瀏覽器索引標籤中，從 `https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/raw/main/data/generative-ai/Business%20Idea.docx` 開啟 [Business Idea.docx](https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/raw/main/data/generative-ai/Business%20Idea.docx) 文件。 然後，當文件在 Edge 中開啟時，選取 [將複本儲存至 OneDrive]**** 的選項，並將文件儲存在 OneDrive 的**文件**資料夾中。 文件應會隨即在 Microsoft Word Online 中自動開啟。
 
-1. 在提示中輸入： `What are 3 pros and cons of traveling in the winter?`。 您會在回應之前看到 [ *搜尋：...* ] 和 *[產生...* ]。 此模型會使用搜尋的回應作為基礎資訊來產生原始回應。 請注意，回應結尾包含其來源的連結。 
+    > **秘訣**：若未看到將檔案複本儲存至 OneDrive 的選項，請將其下載到本機電腦。 然後，在 OneDrive 中開啟**文件**資料夾，並使用 [+ 新增]**** 按鈕，將 **Business Idea.docx** 檔案從本機電腦上傳至 OneDrive。
 
-![Copilot 回應旅行提示的螢幕快照，其中包含三個項目符號給優缺點和三個項目符號。](./media/generative-ai/bing-copilot-response-traveling.png) 
+1. 檢視 **Business Idea.docx** 中的文字，其中描述了關於紐約市清潔業務的一些概要構想。
+1. 使用 Edge 工具列上的 **Copilot** 圖示開啟 Copilot 窗格，如下所示：
 
-> **注意**：如果您看不到 **產生...* 訊息或項目符號清單回應，則尚未看到 Copilot 運作。 您必須返回登入功能表，並連接您搭配個人帳戶使用的目前帳戶。 
- 
-1. 在提示中輸入： `Find me 3 more pros`。 您對於這個提示的意義在於，您想要在尚未列出的冬季旅行看到 3 個更積極的原因。 請注意，在此提示中，您會要求 Copilot 執行兩項單獨搜尋不會執行的工作：使用先前的聊天回應來排除新回應中傳回的內容，並使用先前聊天的主題，而不明確指出。 
+    ![此螢幕擷取畫面顯示 Microsoft Edge 中的 Copilot 窗格。](./media/generative-ai/edge-copilot.png)
 
-1. 在提示中輸入： `Where are 3 places I can go to find fewer crowds?`。 
+1. 在 Copilot 窗格中向下捲動，以查看所有必要的內容，並確定已選取 [聊天]**** 索引標籤，且交談樣式設定為 [更加平衡]**** - 這可確保 Copilot 在回應時會兼顧創造性與事實精確度。
+1. 在 Copilot 窗格底部的聊天方塊中，輸入下列提示：
 
-    > **注意**：請注意，當 Copilot 能夠提供相關回應時，它可以在繼續時卸除先前交談線程的「記憶」。 因此，您得到的回應可能不會與冬季旅行直接相關。 這主要是與令牌輸入限制搭配使用。 當交談的早期部分聊天「記住」時，這是因為它已從交談中儲存了一定數量的令牌。 隨著新令牌透過新的提示和響應引進，聊天會放開較舊的令牌。 
+    ```
+    What is this document about?
+    ```
 
-1. 聊天視窗旁的 [ **新增主題** ] 按鈕很有用。 按兩下即可清除先前的對話線程，讓您的新主題回應不會以上一個主題為基礎。 使用聊天視窗旁的 [ **新增主題** ] 圖示來清除您的訊息歷程記錄。 
+    如果出現提示，請確認您想要允許 Copilot 存取頁面。
 
-## 嘗試產生映像
+1. 檢閱 Copilot 的回應，其中應該會摘錄文件中的要點，如下所示：
 
-1. 現在讓我們看看影像產生範例。 在提示中輸入： `Create an image of an elephant eating a hamburger`。 請注意，我會嘗試建立...* 的訊息*會出現在 Copilot 傳回回應之前。 
+    ![此螢幕擷取畫面顯示含有回應的 Copilot 窗格。](./media/generative-ai/copilot-response.png)
 
-    ![大象吃火腿漢堡的螢幕快照。](./media/generative-ai/dall-e-elephant.png)
+    > **注意**：具體回應可能有所不同。
 
-    重要的是，請注意回應看起來可能類似，但不相同。 這是因為回應會有所不同。  
+1. 輸入下列提示：
 
-1. 在回應中，底部有文字會讀取「由 DALL-E 提供電源」。 請考慮 DALL-E 如何以大型語言模型為基礎，因為您的自然語言輸入會產生影像。 
+    ```
+    How do I go about setting up a business in New York?
+    ```
 
-1. 按兩下畫面右上角的 Microsoft Bing 圖示，返回 Copilot 的聊天。 
+1. 檢閱回應，其中應該會包含協助您開始在紐約開展業務的建議和資源連結，並可能包含一些建議的後續提示以取得詳細資訊。
 
-## 嘗試產生程序代碼
+    > **重要**：AI 產生的回應以網路上的公開資訊為基礎。 雖然協助您了解開展業務所需的步驟可能有其效用，但並不保證 100% 正確，同時也無法取代專業建議的需求！
 
-1. 現在讓我們看看程式代碼產生和翻譯的範例。 在提示中輸入： `Use Python to create a list`。 
+## 使用 Copilot 建立商務計劃的內容
 
-1. 在提示中輸入： `Translate that into C#`。 請注意，您不需要指定 Copilot 知道參照交談歷程記錄時所知道的「那」。
+在您進行了一些初步研究後，接著即可讓 Copilot 協助您為清潔公司擬定商務計劃。
 
-## 加分任務
+1. 在 **Business Idea.docx** 文件仍在 Microsoft Edge 中開啟的情況下，在 Copilot 窗格中輸入下列提示：
 
-1. 在提示中輸入： `What are 3 examples of generative AI helping people?`。 您可以使用這種方式來集思廣益！  
+    ```
+    Suggest a name for my cleaning business
+    ```
+
+1. 檢閱建議，並選取清潔公司的名稱 (或繼續進行提示以尋找您想要的名稱)。
+1. 輸入下列提示，將 *Contoso Cleaning* 取代為您選擇的公司名稱：
+
+    ```
+    Write a business plan for "Contoso Cleaning" based on the information in this document. Include an executive summary, market overview, and financial projections.
+    ```
+
+1. 檢閱回應，並在輸出底下使用**複製** (🗍) 圖示將其複製到剪貼簿。 然後，選取 **Business Ideas.docx** 文件中的所有文字，並將複製的文字貼到文件中加以取代。 最後，將回應中的初始文字 (Copilot 藉此確認了指令) 取代為清潔公司名稱的標題，以整理貼上的文字。 最後您應該會有一份商務計劃文件，如下所示：
+
+    ![Word 文件的螢幕擷取畫面，其中包含 Copilot 產生的商務計劃。](./media/generative-ai/generated-content.png)
+
+1. 在 Copilot 窗格中，輸入下列提示：
+
+    ```
+    Create a corporate logo for the cleaning company. The logo should be round and include an iconic New York landmark.
+    ```
+
+1. 檢閱回應，其中應該會針對 Microsoft Designer 所建立的標誌顯示四個選項。
+1. 使用更多提示來反覆操作設計 (例如 `Make it green and blue`)，直到您獲得滿意的標誌。
+1. 以滑鼠右鍵按一下您偏好的標誌設計，並將其複製到剪貼簿。 然後，將其貼到商務計劃文件的頂端，如下所示：
+
+    ![Word 文件的螢幕擷取畫面，其中包含 Copilot 產生的影像。](./media/generative-ai/generated-image.png)
+
+1. 關閉 [Microsoft Word] 索引標籤，並返回 OneDrive 中的**文件**資料夾。
+
+## 使用 Copilot 建立簡報的內容
+
+藉助於 Copilot，您為清潔業務構想建立了商務計劃的草案。 此時您需要一份有效的簡報，用以說服投資者提供資金來開展業務。
+
+1. 在 OneDrive 的**文件**資料夾中，新增 **PowerPoint 簡報**。
+
+    如果 [設計工具]**** 窗格自動開啟，請加以關閉。
+
+1. 在簡報的標題投影片上，輸入清潔公司的名稱作為標題，並以 `Investor Opportunity` 作為子標題。
+1. 使用「兩個內容」**** 投影片版面配置 (其中包含標題和兩個內容預留位置)，新增投影片。
+1. 將投影片標題變更為 `Benefits of Hiring a Commercial Cleaner`。
+1. 在 Copilot 窗格中，輸入下列提示：
+
+    ```
+    Write a summary of the benefits of using a corporate cleaning company for your business. The summary should consist of five short bullet points.
+    ```
+
+1. 將 Copilot 的回應複製到剪貼簿，並將其貼到左側的內容預留位置中。 然後，刪除確認要求的初始句子，並將預留位置中的文字重新格式化，直到您滿意為止。
+1. 在 Copilot 窗格中，輸入下列提示：
+
+    ```
+    Create a photorealistic image of a clean office.
+    ```
+
+1. 在 Copilot 產生您想要的影像後，將其複製到剪貼簿，並貼到投影片右側的內容預留位置中。
+
+    如果 [設計工具]**** 窗格自動開啟，請選取您想要的投影片設計。 然後，關閉 [設計工具]**** 窗格。
+
+1. 套用任何您認為必要的其他重新格式化，直到您製作出如下的投影片：
+
+    ![PowerPoint 簡報的螢幕擷取畫面，其中包含 Copilot 產生的內容。](./media/generative-ai/powerpoint-slide.png)
+
+1. 在 PowerPoint 標題列上選取預設的簡報名稱 (**簡報**)，並將其重新命名為 `Business Presentation.pptx`。
+1. 關閉 [PowerPoint] 索引標籤，並返回 OneDrive 中的**文件**資料夾。
+
+## 使用 Copilot 撰寫電子郵件
+
+您建立了一些隨附品以利展開業務。 接下來即應吸引投資者為您的新創基金注資。
+
+1. 使用 OneDrive 標題列左側的**應用程式啟動器**，開啟 **Outlook**。
+1. 建立新的電子郵件，並在 [收件者]**** 方塊中填入您自己的電子郵件地址。
+1. 在 Copilot 窗格中，選取 [撰寫]**** 索引標籤。然後，設定下列選項以撰寫新內容：
+    - **撰寫主題**：`Request a meeting with an investment bank to discuss funding for a commercial cleaning business.`
+    - **語氣**：專業
+    - **格式**：電子郵件
+    - **長度**：適中
+1. 選取 [產生草稿]****，然後檢閱產生的輸出。
+1. 使用產生的內容完成您的電子郵件，如下所示：
+
+    ![此螢幕擷取畫面顯示 Copilot 所產生的電子郵件訊息。](./media/generative-ai/generated-email.png)
+
+    如果您想要的話，可以將電子郵件傳送給自己！
+
+## 挑戰
+
+既然您已了解如何使用 Copilot 來研究構想並產生內容，何不嘗試進一步探索？ 若要啟動新的 Copilot 工作階段，請在 [聊天]**** 索引標籤上選取提示方塊旁的 [新增主題]**** 圖示，然後嘗試使用 Copilot 規劃地方圖書館的活動，以提高兒童的讀寫能力。 可行的嘗試包括：
+
+- 研究一些鼓勵兒童及早閱讀的技巧。
+- 製作活動的傳單或海報。
+- 撰寫活動的電子郵件，邀請當地的兒童讀物作家出席活動並發言。
+- 建立簡報以展開活動。
+
+請盡情發揮您的創造力，並探索 Copilot 如何藉由尋找資訊、產生並精煉文字、建立影像和回答問題，為您提供協助。
+
+
+## 結論
+
+在此練習中，您在 Microsoft Edge 中使用了 Copilot 來尋找資訊並產生內容。 希望您已了解如何在 Copilot 中利用生成式 AI 來提高生產力和創造力。
+
+此練習中使用的免費服務當然非常強大，但您仍可使用[適用於 Microsoft 365 的 Copilot](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365) 等服務達成更多目標；其中的 Microsoft Copilot 已整合到 Windows 和 Microsoft Office 生產力應用程式中，可為常見工作提供高度情境化的協助。 Microsoft 365 可讓您將生成式 AI 的強大功能導入商務資料和程序中，同時整合至您現有的 IT 基礎結構，以確保解決方案易於管理且安全無虞。
