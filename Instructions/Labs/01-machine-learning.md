@@ -64,7 +64,7 @@ lab:
             - **資料存放區類型**：Azure Blob 儲存體
             - **名稱**：workspaceblobstore
         - **MLtable 選取項目**：
-            - **上傳資料夾**：*下載資料夾，其中包含您需要從 * 上傳的兩個檔案`https://aka.ms/bike-rentals`
+            - **上傳資料夾**：*下載並解壓縮包含您所需要上傳兩個檔案的資料夾* `https://aka.ms/bike-rentals`
 
         選取 **建立**。 建立資料集之後，選取 [自行車租借數目]**** 資料集以繼續提交自動化 ML 作業。
 
@@ -145,29 +145,31 @@ lab:
 
 1. 在 [輸入資料以測試端點]**** 窗格中，將範本 JSON 換成下列輸入資料：
 
-    ```JSON
+    ```json
     {
-      "Inputs": { 
-        "data": [
-          {
-            "day": 1,
-            "mnth": 1,   
-            "year": 2022,
-            "season": 2,
-            "holiday": 0,
-            "weekday": 1,
-            "workingday": 1,
-            "weathersit": 2, 
-            "temp": 0.3, 
-            "atemp": 0.3,
-            "hum": 0.3,
-            "windspeed": 0.3 
-          }
-        ]    
-      },   
-      "GlobalParameters": 1.0
+      "input_data": {
+        "columns": [
+            {
+                "day": 1,
+                "mnth": 1,   
+                "year": 2022,
+                "season": 2,
+                "holiday": 0,
+                "weekday": 1,
+                "workingday": 1,
+                "weathersit": 2, 
+                "temp": 0.3, 
+                "atemp": 0.3,
+                "hum": 0.3,
+                "windspeed": 0.3 
+            }
+        ],
+        "index": [],
+        "data": []
+      }
     }
     ```
+
 
 1. 按一下 [測試]**** 按鈕。
 
