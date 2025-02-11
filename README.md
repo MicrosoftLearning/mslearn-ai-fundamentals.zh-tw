@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # Microsoft Azure AI Fundamentals 練習
 
 此存放庫包含 Microsoft 官方課程軟體中實作練習的指示和資產，以支援 [Microsoft 認證：Azure AI 基本概念](https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/)認證。 這些練習旨在補充 [Microsoft Learn](https://learn.microsoft.com/training) 的相關訓練模組，而這些練習的<u>子集</u>包含實作教室，位於官方 [AI-900：Microsoft Azure AI 基本概念](https://learn.microsoft.com/en-us/training/courses/ai-900t00)導學型訓練課程。
