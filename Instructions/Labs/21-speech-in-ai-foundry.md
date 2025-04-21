@@ -45,9 +45,9 @@ lab:
 
 ## 探索 Azure AI Foundry 語音遊樂場中的語音轉換文字
 
-讓我們在 Azure AI Foundry 的語音遊樂場中試用*語音轉換文字*。 
+讓我們在 Azure AI Foundry 的語音遊樂場中試用*即時語音轉換文字*。 
 
-1. 在 [語音]** 頁面上，向下捲動並選取 [試用語音功能]** 底下的 [即時謄寫]****。 您將前往*語音遊樂場*。 
+1. 在 [語音]** 頁面上，向下捲動並選取 [試用語音功能]**** 底下的 [即時語音轉換文字]**。 您將前往*語音遊樂場*。 
 
 1. 選取 [**https://aka.ms/mslearn-speech-files**](https://aka.ms/mslearn-speech-files) 以下載 **speech.zip**。 開啟  資料夾。 
 
@@ -59,7 +59,7 @@ lab:
 
 1. 檢閱輸出，應該已成功辨識音訊並轉譯為文字。
 
-在本練習中，您已在 Azure AI Foundry 的語音遊樂場中試用 Azure AI 語音服務。 接著，您已使用即時謄寫來轉譯音訊錄製內容。 您可以在音訊檔案播放期間查看產生的文字轉譯。
+在本練習中，您已在 Azure AI Foundry 的語音遊樂場中試用 Azure AI 語音服務。 然後，您使用即時語音轉換文字服務來轉譯音訊錄製內容。 您可以在音訊檔案播放期間查看產生的文字轉譯。
 
 ## 清理
 
@@ -70,4 +70,4 @@ lab:
 
 ## 深入了解
 
-此練習僅示範語音服務眾多功能中的一個。 若要深入了解這項服務的功用，請參閱[語音頁面](https://azure.microsoft.com/services/cognitive-services/speech-services)。
+此練習僅示範語音服務的部分功能。 若要深入了解這項服務的功用，請參閱[語音頁面](https://azure.microsoft.com/services/cognitive-services/speech-services)。
