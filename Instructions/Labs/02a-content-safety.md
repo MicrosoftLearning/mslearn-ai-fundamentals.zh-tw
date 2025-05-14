@@ -1,8 +1,3 @@
----
-lab:
-  title: 探索 Azure AI Foundry 中的內容安全
----
-
 # 探索 Azure AI Foundry 中的內容安全
 
 Azure AI 服務可協助使用者使用現成、預先建置且可自訂的 API 與模型來建立 AI 應用程式。 在此練習中，您將查看其中一項服務 Azure AI 內容安全，讓您能夠調節文字和影像內容。 在 Microsoft 用來建立智慧型應用程式的 Azure AI Foundry 入口網站中，您將使用 Azure AI 內容安全來分類文字並指派嚴重性分數。 
