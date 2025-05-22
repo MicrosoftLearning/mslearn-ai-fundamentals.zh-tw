@@ -33,13 +33,13 @@ Azure AI 服務可協助使用者使用現成、預先建置且可自訂的 API 
 
 ## 查看 Azure AI 服務的實際應用
 
-1. 在瀏覽器索引標籤中，瀏覽至 [Azure AI Foundry][](https://ai.azure.com?azure-portal=true)。
+讓我們從建立 Azure AI Foundry 專案開始。
 
-1. 使用您的帳戶登入。 
+1. 在網頁瀏覽器中，開啟 [Azure AI Foundry 入口網站](https://ai.azure.com) 於`https://ai.azure.com` 並使用您的 Azure 認證登入。 關閉首次登入時開啟的所有提示或快速啟動窗格，如有必要，使用左上角的 **Azure AI Foundry** 標誌瀏覽到首頁，首頁類似於下圖（若 [說明]**** 窗格已開啟，請將其關閉）：
 
-1. 在 [在專案外工作] ** 下，選取 [檢視 AI 服務] **** 圖格。
+    ![Azure AI Foundry 首頁的螢幕擷取畫面，其中已選取 [代理程式]。](./media/azure-ai-foundry-home-page.png)
  
-    ![專案畫面上左側功能表的螢幕擷取畫面，其中已選取 [AI 服務]。](./media/view-ai-foundry-outside-project.png)  
+1. 在新瀏覽器視窗中，開啟 [Azure AI 服務探索] 頁面[](https://ai.azure.com/explore/aiservices)。
 
 1. 在 [AI 服務]** 頁面上，選取 [視覺 + 文件]** 圖格，以試用 Azure AI 視覺和文件功能。
 
@@ -64,12 +64,4 @@ Azure AI 服務可協助使用者使用現成、預先建置且可自訂的 API 
 ## 清理 
 
 完成後，您可以從 Azure 入口網站刪除 Azure AI 服務資源。 由於當資源存在訂用帳戶時會累算成本，因此刪除資源可降低成本。 為此，請瀏覽至 Azure AI 服務資源的 [概觀]**** 頁面。 選取畫面頂端的 [部署]****。
-
-
-
-
-
-
-
-
 
