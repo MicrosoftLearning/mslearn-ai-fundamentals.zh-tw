@@ -12,10 +12,11 @@ AI-900 實驗室子集用於按照每個課程模組對應的課程，如下所�
 
 | AI-900 訓練人員實驗室 # | 主題 | 指示 |
 | --- | --- | --- |
-| AI-900 AI 概觀 | 探索 Azure AI 服務 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250253) |
-| AI-900 電腦視覺 | 分析 Azure AI Foundry 中的影像 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250145) |
-| AI-900 自然語言處理 | 使用 Azure AI Foundry 分析文字 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250314) |
-| AI-900 文件智慧服務 | 在 Azure AI Foundry 中擷取表單資料 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250315) |
-| AI-900 生成式 AI | 探索 Azure AI Foundry 中的生成式 AI | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2249955) |
+| AI-900 生成式 AI | 探索 Azure AI Foundry 入口網站中的生成式 AI | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2249955) |
+| AI-900 自然語言處理 | 使用 Azure AI Foundry 入口網站，分析文字 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250314) |
+| AI-900 語音 | 探索 Azure AI Foundry 入口網站中的語音 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250148) |
+| AI-900 電腦視覺 | 分析 Azure AI Foundry 入口網站中的影像 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2250145) |
+| AI-900 擷取資訊 | 使用 Azure AI Foundry 入口網站中的內容瞭解擷取資料 | [實驗室指示](https://go.microsoft.com/fwlink/?linkid=2320420) |
+
 
 

@@ -13,20 +13,15 @@ lab:
 
 ## 在 Azure AI Foundry 入口網站中建立專案
 
-讓我們從建立 Azure AI Foundry 專案開始。
+1. 在網頁瀏覽器中，開啟 [Azure AI Foundry 入口網站](https://ai.azure.com) 於`https://ai.azure.com` 並使用您的 Azure 認證登入。 關閉首次登入時，已開啟任何提示或是快速入門窗格。 
 
-1. 在網頁瀏覽器中，開啟 [Azure AI Foundry 入口網站](https://ai.azure.com) 於`https://ai.azure.com` 並使用您的 Azure 認證登入。 關閉首次登入時開啟的所有提示或快速啟動窗格，如有必要，使用左上角的 **Azure AI Foundry** 標誌瀏覽到首頁，首頁類似於下圖（若 [說明]**** 窗格已開啟，請將其關閉）：
+1. 請在瀏覽器中，先至`https://ai.azure.com/managementCenter/allResources`瀏覽，再選取[**建立**]。 然後選擇選項，以便建立*新的 AI 中心資源*。
 
-    ![Azure AI Foundry 首頁的螢幕擷取畫面，其中已選取 [代理程式]。](./media/azure-ai-foundry-home-page.png)
+1. 請在 [建立專案精靈]** 中，輸入專案有效名稱，如果建議使用現有的中樞，請選擇建立 [新中樞]** 的選項。 
 
-1. 在首頁中，選取 [+ 建立代理程式]****。
-
-1. 在 [建立代理程式]**** 精靈中，輸入專案的有效名稱。 
-
-1. 選取 [進階選項]**** 並指定以下設定：
-    - **Azure AI Foundry 資源**： *保留預設名稱*
-    - **訂用帳戶**：您的 Azure 訂用帳戶**
-    - **資源群組**：建立或選取資源群組**
+1. 請展開 *[進階選項]*，為專案指定下列設定：
+    - **訂用帳戶**：您的 Azure 訂用帳戶
+    - **資源群組**：建立或選取資源群組
     - **地區**：選取以下位置之一：
         * 美國東部
         * 法國中部
@@ -34,17 +29,13 @@ lab:
         * 西歐
         * 美國西部
 
-1. 選取 [建立]**** 並檢閱您的設定。 等候設定程序完成。
+    等候建立好專案和中心。
 
-    >**注意**：如果您收到權限錯誤，請選取 [修復]**** 按鈕新增適當的權限以繼續。
-
-1. 建立專案後，您將預設進入 Azure AI Foundry 入口網站中的代理程式遊樂場，它看起來類似於下圖：
-
-    ![Azure AI Foundry 入口網站中 Azure AI 專案詳細資料的螢幕螢幕擷取畫面。](./media/ai-foundry-project-2.png)
-
-1. 在新瀏覽器視窗中，開啟 [Azure AI 服務探索] 頁面[](https://ai.azure.com/explore/aiservices)。
+1. 當建立專案時，系統會將您導向專案詳細資料的 [*概觀*] 頁面。 請在左側功能表上，選取 **[AI 服務]**。 
 
 1. 在 [AI 服務]** 頁面上，選取 [視覺 + 文件]** 圖格，以試用 Azure AI 視覺和文件功能。
+
+    ![Azure AI Foundry 中的視覺 + 文件動態磚的螢幕擷取畫面。](./media/vision-document-tile.png)
 
 ## 使用 Azure AI Foundry 中的 Azure AI 文件智慧服務分析收據 
 

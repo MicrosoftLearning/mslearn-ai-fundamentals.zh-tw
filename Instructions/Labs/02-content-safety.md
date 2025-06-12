@@ -35,9 +35,7 @@ Azure AI 服務可協助使用者使用現成、預先建置且可自訂的 API 
 
 讓我們從建立 Azure AI Foundry 專案開始。
 
-1. 在網頁瀏覽器中，開啟 [Azure AI Foundry 入口網站](https://ai.azure.com) 於`https://ai.azure.com` 並使用您的 Azure 認證登入。 關閉首次登入時開啟的所有提示或快速啟動窗格，如有必要，使用左上角的 **Azure AI Foundry** 標誌瀏覽到首頁，首頁類似於下圖（若 [說明]**** 窗格已開啟，請將其關閉）：
-
-    ![Azure AI Foundry 首頁的螢幕擷取畫面，其中已選取 [代理程式]。](./media/azure-ai-foundry-home-page.png)
+1. 在網頁瀏覽器中，開啟 [Azure AI Foundry 入口網站](https://ai.azure.com) 於`https://ai.azure.com` 並使用您的 Azure 認證登入。 關閉首次登入時，已開啟任何提示或是快速入門窗格。
  
 1. 在新瀏覽器視窗中，開啟 [Azure AI 服務探索] 頁面[](https://ai.azure.com/explore/aiservices)。
 
