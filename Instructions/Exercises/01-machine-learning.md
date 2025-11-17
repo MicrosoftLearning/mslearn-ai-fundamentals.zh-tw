@@ -7,17 +7,17 @@ lab:
 
 在此練習中，您將使用自動化機器學習來訓練和評估機器學習模型。 接著，您將部署及測試定型的模型。
 
-> **注意**：此練習旨在引導您完成使用***Azure Machine Learning*** 訓練和測試模型的步驟。 如果您有具有足夠權限的 Azure 訂閱，則可佈建 Azure Machine Learning 工作區，用該工作區進行練習。 不過，Azure Machine Learning 的設計，是針對涉及大量資料和雲端式計算的企業級機器學習解決方案。 Azure Machine Learning 中的部分作業需要佈建計算，而這可能花上一段時間。 如果您沒有 Azure 存取權，或您完成練習的時間有限，則可使用包含此練習中 Azure ML 核心功能的瀏覽器型***ML 實驗室***應用程式，比照 Azure ML 的方式訓練和測試實際的機器學習模型。 雖然 ML 實驗室中的使用者介面與 Azure Machine Learning*不同*，但相似程度極高，足以讓您從 Azure Machine Learning 流暢轉換。 請注意，ML 實驗室應用程式會在瀏覽器中執行，因此只要重新整理頁面，即會重新啟動應用程式！
+> **注意**：此練習旨在引導您完成使用 ***Azure Machine Learning*** 訓練和測試模型的步驟。 如果您有具有足夠權限的 Azure 訂閱，則可佈建 Azure Machine Learning 工作區，用該工作區進行練習。 不過，Azure Machine Learning 的設計，是針對涉及大量資料和雲端式計算的企業級機器學習解決方案。 Azure Machine Learning 中的部分作業需要佈建計算，而這可能花上一段時間。 如果您沒有 Azure 存取權，或您完成練習的時間有限，則可使用包含此練習中 Azure ML 核心功能的瀏覽器型 ***ML 實驗室***應用程式，比照 Azure ML 的方式訓練和測試實際的機器學習模型。 雖然 ML 實驗室中的使用者介面與 Azure Machine Learning *不同*，但相似程度極高，足以讓您從 Azure Machine Learning 流暢轉換。 請注意，ML 實驗室應用程式會在瀏覽器中執行，因此只要重新整理頁面，即會重新啟動應用程式！
 
-此練習約需**35** 分鐘完成。如果使用的是瀏覽器型 ML 實驗室應用程式，時間會更短。
+此練習約需 **35** 分鐘完成。如果使用的是瀏覽器型 ML 實驗室應用程式，時間會更短。
 
 ## 建立工作區
 
 系統會透過工作區將所有機器學習資源存放在一處，方便您輕鬆從單一位置管理資料、程式碼、模型和其他資產。
 
 1. 開啟您要在此實驗室中使用環境的入口網站，並在系統提示時登入：
-    - Azure 型[Azure Machine Learning 工作室](https://ml.azure.com){:target="_blank"}：`https://ml.azure.com`
-    - 瀏覽器型[ML 實驗室](https://aka.ms/ml-lab){：target=“_blank”}：`https://aka.ms/ml-lab`
+    - Azure 型 [Azure Machine Learning 工作室](https://ml.azure.com){:target="_blank"}：`https://ml.azure.com`
+    - 瀏覽器型 [ML 實驗室](https://aka.ms/ml-lab){：target=“_blank”}：`https://aka.ms/ml-lab`
 
     > **秘訣**：如果 Azure Machine Learning 工作室在現有工作區開啟，請瀏覽至 [所有工作區]**** 頁面。
 
@@ -33,8 +33,8 @@ lab:
 
 在此練習中，您會使用冰淇淋銷售資料集訓練模型，以便根據季節和氣象特徵，預測指定日子的冰淇淋需求數量。
 
-1. 在新的瀏覽器索引標籤中，從`https://aka.ms/mslearn-ml-data` 將**[ml-data.zip](https://aka.ms/mslearn-ml-data)** 下載至本機電腦。
-1. 擷取下載的**ml-data.zip** 封存，查看其中包含的檔案。 請注意，其中的**ice-cream.csv** 檔案包含本練習所需的冰淇淋銷售資料。
+1. 在新的瀏覽器索引標籤中，從 `https://aka.ms/mslearn-ml-data` 將 **[ml-data.zip](https://aka.ms/mslearn-ml-data)** 下載至本機電腦。
+1. 擷取下載的 **ml-data.zip** 封存，查看其中包含的檔案。 請注意，其中的 **ice-cream.csv** 檔案包含本練習所需的冰淇淋銷售資料。
 
 ## 使用自動化機器學習來定型模型
 
@@ -53,24 +53,24 @@ lab:
    **工作類型與資料**：
 
     - 將任務類型設定為**迴歸**。
-    - 建立名為**ice-cream** 的新***表格式***資料資產
-        - 將本機**ice-cream.csv** 檔案上傳至預設工作區儲存空間。
-        - 請<u>只</u>包含下列資料行 (各列的*日期*不重複，且可自行新增預測功能)：
+    - 建立名為 **ice-cream** 的新***表格式***資料資產
+        - 將本機 **ice-cream.csv** 檔案上傳至預設工作區儲存空間。
+        - 請<u>只</u>包含下列資料行 (各列的*日期*不重複，且可自行小幅新增預測功能)：
             - **DayOfWeek**
             - **Month**
             - **溫度**
             - **Rainfall**
             - **IceCreamsSold**
         - 建立資料資產。
-    - 請先確定已選取新建立的**ice-cream** 資料資產，再進行下個步驟
+    - 請先確定已選取新建立的 **ice-cream** 資料資產，再進行下個步驟
 
-    > **注意**：如果您不是所使用 Azure 訂閱的系統管理員，系統原則可能不允許使用金鑰存取儲存空間。 若是如此，請要求系統管理員允許使用金鑰型存取，或重新設定 Azure Machine Learning 工作區，以便使用 Entra ID 驗證存取儲存空間。 如果無法這麼做，請使用瀏覽器型***ML 實驗室***應用程式進行此練習。
+    > **注意**：如果您不是所使用 Azure 訂閱的系統管理員，系統原則可能不允許使用金鑰存取儲存空間。 若是如此，請要求系統管理員允許使用金鑰型存取，或重新設定 Azure Machine Learning 工作區，以便使用 Entra ID 驗證存取儲存空間。 如果無法這麼做，請使用瀏覽器型 ***ML 實驗室***應用程式進行此練習。
 
     **工作設定**：
 
-    - 將**目標資料行** (希望模型預測的標籤) 設定為**IceCreamsSold**。
+    - 將**目標資料行** (希望模型預測的標籤) 設定為 **IceCreamsSold**。
     - 設定**其他組態設定**：
-        - 將 [主要計量]**** 設定為您想用來評估模型效能的計量。 針對此練習，請使用*R<sup>2</sup>* 分數。
+        - 將 [主要計量]**** 設定為您想用來評估模型效能的計量。 針對此練習，請使用 *R<sup>2</sup>* 分數。
         - 選取您要嘗試的模型演算法，或選取所有項目
     - 設定**特徵化設定**：
         - 使用這些設定自訂特徵化 (即資料功能針對模型訓練進行的準備)
@@ -161,7 +161,7 @@ lab:
 
 ## 如果還有時間
 
-如果您想進一步實驗自動化機器學習，不妨嘗試使用先前下載之**ml-data.zip** 封存中包含的**penguins.csv** 檔案，訓練**分類**模型。 使用此資料集中的所有資料行。
+如果您想進一步實驗自動化機器學習，不妨嘗試使用先前下載之 **ml-data.zip** 封存中包含的 **penguins.csv** 檔案，訓練**分類**模型。 使用此資料集中的所有資料行。
 
 訓練和部署分類模型之後，即可使用下列 JSON 在端點中進行測試：
 
@@ -184,11 +184,11 @@ lab:
 
 如果使用 Azure Machine Learning 完成此練習，請刪除新建立的資源，以免產生不必要的 Azure 用量。
 
-1. 在[Azure Machine Learning 工作室](https://ml.azure.com)的 [**端點**] 索引標籤中，選取您部署的端點。 然後，選取 [刪除]****，並確認您想要刪除該端點。
+1. 在 [Azure Machine Learning 工作室](https://ml.azure.com)的 [**端點**] 索引標籤中，選取您部署的端點。 然後，選取 [刪除] ****，並確認您想要刪除該端點。
 
     刪除您的計算可確保您的訂用帳戶不需支付計算資源的費用。 不過，只要您的訂用帳戶中有 Azure Machine Learning 工作區，您就必須為了資料儲存空間支付少量的費用。 如果您已完成探索 Azure Machine Learning，則可刪除 Azure Machine Learning 工作區及其相關的資源。
 
 若要刪除您的工作區：
 
-1. 在[Azure 入口網站](https://portal.azure.com)的 [資源群組]**** 頁面中，開啟在建立 Azure Machine Learning 工作區時所指定的資源群組。
+1. 在 [Azure 入口網站](https://portal.azure.com)的 [資源群組]**** 頁面中，開啟在建立 Azure Machine Learning 工作區時所指定的資源群組。
 2. 按一下 [刪除資源群組]****、輸入資源群組名稱以確認要刪除，然後選取 [刪除]****。
